@@ -1,1 +1,49 @@
-
+body{
+          background-color:cornsilk;
+          font-family: courier new, helvetica,arial;
+      }
+      
+      h1{
+          font-size: 35px;
+          line-height: 1.5;
+          text-align:center;
+      }
+      a{
+          color: #a4c639;
+      }
+      .container{
+          margin: 100px auto;
+          max-width: 600px;
+          background-color:#fff;
+          margin-bottom:20px;
+          border-radius:10px;
+      }
+      .poem{
+          background-color: #fff;
+          border-right: 2px solid red;
+          border-left: 2px solid red;
+          padding: 30px;
+          border-radius:10px;
+      }
+      form{
+          display:flex;
+          
+      }
+      .poem-input{
+          width:80%;
+          padding:20px;
+          color: gray;
+          border-radius:10px;
+          margin-right:5px;
+      }
+      .submit-button{
+          background-color: #a4c639;
+          color:#fff;
+          border-radius:10px;
+          padding:15px;
+          border:none;
+      }
+      
+      footer{
+          margin-top: 30px;
+}
