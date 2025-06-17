@@ -24,6 +24,7 @@ body{
           border-left: 2px solid red;
           padding: 30px;
           border-radius:10px;
+          display:none;
       }
       form{
           display:flex;
