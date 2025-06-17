@@ -17,7 +17,7 @@ function displayPoem (response){
       
       let poemElement = document.querySelector("#poem");
       poemElement.style.display = "block";
-      poemElement.innerHTML = `Generating your Spanish poem about ${poemInput.value}`
+      poemElement.innerHTML = `Generating your Spanish poem about ${poemInput.value}......`
       let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`
       axios.get(apiUrl).then(displayPoem);
       }
