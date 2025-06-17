@@ -17,12 +17,14 @@ body{
           background-color:#fff;
           margin-bottom:20px;
           border-radius:10px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
       .poem{
           background-color: #fff;
           border-right: 2px solid red;
           border-left: 2px solid red;
           padding: 30px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
           border-radius:10px;
           display:none;
       }
